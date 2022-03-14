@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/bookmarkid"
+            android:icon="@drawable/ic_baseline_bookmarks_24"
+            android:title="@string/menu_bookmark" />
+        <item
+            android:id="@+id/goldid"
+            android:icon="@drawable/ic_money"
+            android:title="@string/menu_gold" />
+
+        <item
+            android:id="@+id/orderid"
+            android:icon="@drawable/ic_baseline_featured_play_list_24"
+            android:title="Your Order" />
+        <item
+            android:id="@+id/favouriteid"
+            android:icon="@drawable/ic_baseline_favorite_border_24"
+            android:title="Favourite Food" />
+        <item
+            android:id="@+id/adressid"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Address Book" />
+
+
+
+
+    </group>
+    <group
+        android:id="@+id/group_divider">
+        <item
+            android:id="@+id/helpid"
+            android:icon="@drawable/ic_baseline_live_help_24"
+            android:title="Help" />
+        <item android:id="@+id/feedbackid"
+            android:icon="@drawable/ic_baseline_feedback_24"
+            android:title="About"/>
+        <item android:id="@+id/rateid"
+            android:icon="@drawable/ic_star_blue"
+            android:title="Rate us on Google Play"/>
+        <item android:id="@+id/aboutid"
+        android:icon="@drawable/ic_about"
+        android:title="About"/>
+</group>
+    <group
+        android:id="@+id/group_od">
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_baseline_account_box_24"
+            android:title="Log in" />
+        <item android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_baseline_power_settings_new_24"
+            android:title="Log Out"/>
+
+    </group>
+
+</menu>

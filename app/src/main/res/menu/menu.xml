@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Order"
+        android:icon="@drawable/ic_bag"
+        android:id="@+id/order"/>
+
+    <item
+        android:title="Go Out"
+        android:icon="@drawable/mark"
+        android:id="@+id/goout"/>
+
+    <item
+        android:title="Gold"
+        android:icon="@drawable/ic_money"
+        android:id="@+id/gold"/>
+
+    <item
+        android:title="Videos"
+        android:icon="@drawable/video"
+        android:id="@+id/video"/>
+    <item
+        android:title="Account"
+        android:icon="@drawable/ic_baseline_account_box_24"
+        android:id="@+id/account"/>
+</menu>
